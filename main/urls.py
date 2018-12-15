@@ -50,7 +50,7 @@ urlpatterns = [
 
     path('pages/', pages),
 
-    path('new/', new_feed),
+    path('', new_feed),
 
     path('feed/<pk>/remove/', remove_feed),
 
